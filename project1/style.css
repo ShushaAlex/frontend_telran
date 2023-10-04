@@ -1,0 +1,26 @@
+h1 {
+    color: #0e5b05;
+    text-align: center;
+}
+div {
+    background-color: rgba(151, 242, 212, 0.545);
+    margin-bottom: 50px;
+    padding: 30px;
+}
+.post-1 {
+    background-color: rgba(151, 242, 178, 0.545);
+}
+h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+p {
+    color: #0e5b05;
+    padding: 10px;
+    border: 1px solid black;
+}
+img {
+    width: 500px;
+    margin-bottom: 25px;
+}

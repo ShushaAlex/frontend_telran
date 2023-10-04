@@ -1,0 +1,15 @@
+body {
+    background-color: #c9d4df
+}
+h2 {
+    font-weight:lighter
+}
+div {
+    background-color: #34495E;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+p {
+    color: aliceblue;
+    padding: 21px
+}

@@ -1,0 +1,17 @@
+ul {
+    list-style-type: circle;
+}
+table, td, th {
+    border-collapse: collapse;
+    border: 2px solid #000000;
+  }
+tr {
+    font-size: 60px;
+    color: rgb(84, 21, 143);
+}
+.first-raw {
+    color: rgb(28, 188, 90);
+}
+.second-raw {
+    color: rgb(188, 159, 28);
+}

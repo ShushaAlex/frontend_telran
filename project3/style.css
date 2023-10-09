@@ -6,12 +6,15 @@ table, td, th {
     border: 2px solid #000000;
   }
 tr {
-    font-size: 60px;
-    color: rgb(84, 21, 143);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
 }
 .first-raw {
-    color: rgb(28, 188, 90);
+    color: rgb(0, 0, 0);
 }
 .second-raw {
-    color: rgb(188, 159, 28);
+    color: rgb(0, 0, 0);
+}
+tr:nth-child(3) {
+    background-color: beige;
 }

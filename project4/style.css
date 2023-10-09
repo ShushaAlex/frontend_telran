@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main, header {
+    display: flex;
+    justify-content: center;
+}
+div {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(75, 178, 144);
+}

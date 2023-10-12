@@ -3,14 +3,58 @@
     padding: 0;
     box-sizing: border-box;
 }
-main, header {
-    display: flex;
-    justify-content: center;
+header {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: antiquewhite;
 }
-div {
-    width: 200px;
-    height: 200px;
+h1 {
+    text-align: center;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 60px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: beige;
+}
+.item {
+    width: calc(50% - 20px);
+    height: 300px;
     padding: 10px;
     margin: 10px;
     background-color: rgb(75, 178, 144);
+    box-shadow: -20px 22px 33px 0px rgba(0,0,0,0.75);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1.5s;
+}
+.item:hover {
+    transform: scale(1.2) rotate(2deg);
+}
+.item1 {
+    background-image: url(./images/bus.png);
+}
+.item2 {
+    background-image: url(./images/car.png);
+}
+.item3 {
+    background-image: url(./images/bike.png);
+}
+.item4 {
+    background-image: url(./images/moto.png);
+}
+.item5 {
+    background-image: url(./images/plane.png);
+}
+.item6 {
+    background-image: url(./images/scooter.png);
+}
+.item7 {
+    background-image: url(./images/skates.png);
+}
+.item8 {
+    background-image: url(./images/train.png);
 }

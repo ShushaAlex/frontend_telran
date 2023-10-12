@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 420px;
+    margin: 20vh auto;
+    padding: 16px;
+    padding: 16px;
+    border-radius: 20px;
+    background: var(--text-white, #FFF);
+    box-shadow: 0px 20px 32px 0px rgba(96, 97, 112, 0.24), 0px 2px 8px 0px rgba(40, 41, 61, 0.08);
+}
+form {
+    padding: 0 16px 16px 16px;
+}
+img {
+    height: 24px;
+    width: 24px;
+    align-self: flex-end;
+}
+h1 {
+    color: #000;
+    font-family: Nunito;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+input[type="email"], input[type="password"] {
+    width: 100%;
+    height: 48px;
+    padding: 7px 16px;
+    margin-bottom: 8px;
+    border-radius: 12px;
+    border: 1px solid var(--text-outline, #CFD8DC);
+    background: var(--text-white, #FFF);
+
+    /*шрифт плейсхолдера*/
+    color: var(--text-secondary-text, #7B8E98);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    caret-color: #FFAA0D;
+}
+.data input:hover, input:focus {
+    border: 1px solid #FFE44D;
+    color: #1A1A1A;
+}
+p {
+    width: 100%;
+    height: auto;
+    margin: 16px 0 24px;
+
+     /*шрифт*/
+     color: var(--text-secondary-text, #7B8E98);
+     font-family: Nunito;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 14px;
+}
+.authorization, .login {
+    width: 100%;
+    border-radius: 55px;
+    padding: 14px 24px;
+
+    /*шрифт кнопок*/
+    color: var(--text-main-text, #1A1A1A);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+.authorization {
+    background: var(--primary-main-color, #FFE44D);
+    border: none;
+    margin-bottom: 8px;
+}
+.login {
+    background-color: #FFF;
+    border-radius: 87px;
+    border: 1px solid var(--text-outline, #CFD8DC);
+}

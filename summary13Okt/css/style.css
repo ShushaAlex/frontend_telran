@@ -1,0 +1,14 @@
+div {
+    height: 10px;
+    margin: 10px 0;
+    background-color: aqua;
+}
+.div-1 {
+    width: 700px;
+}
+.div-2 {
+    width: 50%;
+}
+.div-3 {
+    width: 50vw;
+}

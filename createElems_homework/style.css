@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+div {
+    margin-bottom: 30px;
+}
+.numbers, .strings-container {
+    width: 50%;
+    background-color: rgb(209, 239, 239);
+    padding: 20px;
+}
+.strings-container {
+    display: flex;
+    justify-content: space-around;
+}
+.users-container {
+    display: flex;
+    justify-content: space-around;
+}
+.user {
+    margin: 30px;
+    padding: 10px;
+    width: 25%;
+    background-color: bisque;
+    text-align: center;
+}

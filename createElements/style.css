@@ -1,0 +1,19 @@
+.item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product {
+    width: 30%;
+    background-color: aquamarine;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+h5 {
+    font-size: 36px;
+    text-align: center;
+}
+p {
+    font-size: 24px;
+    text-align: center;
+}

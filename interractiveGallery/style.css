@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery-wrapper {
+    height: 40vh;
+    margin: 20px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap
+}
+.gallery-item {
+    width: 20%;
+    margin: 20px;
+}
+.main-img {
+    width:40vw;
+    height: 30vh;
+    margin: auto;
+}
+img {
+    width: 100%;
+}
